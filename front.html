@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="head one">
+        <!--<img src="img/logo_salud.png" id="logo">-->
+        </div>
+        <div class="head two">
+        <h2>Bienvenido</h2>
+        </div>
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <!--<table><tr><td><img src="img/logo_salud.png" alt="" id="logo"></td><td width="1200px" id="acompañar"><h2>Bienvenido Admin</h2></td></tr></table>-->        
+    </header>        
+    <section><div><h1 class="titulo">Registro De Predios</h1></div></section>
+    <form class="content three">        
+        <div class="content one">
+            <label for="dato_municipio">Propietario</label>
+            <input type="text" id="dato_municipio"/>
+        </div><br><br>
+        <div class="content one">
+            <label for="dato_departamento">Cedula catastral</label>
+            <input type="text" id="dato_departamento"/>
+        </div><br><br>
+        <div class="content one">
+            <label for="dato_casos">Direccion</label>
+            <input type="number" id="dato_casos"/>
+        </div><br><br>
+        <div class="content one">
+            <label for="dato_hombres">Nombre de la propiedad</label>
+            <input type="number" id="dato_hombres"/>
+        </div><br><br>
+        <div class="content one">
+            <label for="dato_mujeres">Tipo de predio</label>
+            <input type="number" id="dato_mujeres"/>
+        </div><br><br>
+        </div><br><br><br><br><br>        
+        <button class="content four" id="enviar_registro" onclick="agregarRegistro()">Enviar registro</button>                               
+    </form>       
+<footer>
+    <div class="pie dedo1">
+        <h1>Acerca de la página</h1>
+    </div>
+    <div class="pie dedo2">
+        <h2>Contáctanos...</h2>
+    </div>
+    <div class="pie dedo3">
+        <img src="facebook.png" id="face">
+        <img src="instagram.PNG" id="insta">
+        <img src="twitter.PNG" id="twit">
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
